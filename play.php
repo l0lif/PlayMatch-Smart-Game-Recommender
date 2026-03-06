@@ -1,6 +1,9 @@
 <!-- fay -->
- <?php 
- $userr =$_POST["user"];
- $emaill = $_POST["email"];
- echo "hello". $userr ;
- ?>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $user = $_POST['user'] ?? '';
+    $email = $_POST['email'] ?? '';
+
+    echo "hello " . $user;
+}
+?>
