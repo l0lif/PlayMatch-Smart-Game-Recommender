@@ -1,0 +1,46 @@
+body {
+    background: url("sorah,/backgraund.png") no-repeat center center fixed;
+    background-size: cover;
+}
+form {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(227, 211, 230, 0.6);
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #e3d3e699;
+    border-radius: 8px;
+    background: rgba(241, 232, 243, 0.8);
+}
+
+input:focus {
+    border-color: #6a5acd;
+    outline: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5848c2;
+}
