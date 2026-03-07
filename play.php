@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        <!-- خيار نعم -->
        <div class="form-check">
            <!-- زر اختيار (radio button) -->
-           <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+           <input class="form-check-input" type="radio" name="gamer"  value ="old" id="gamer">
            
            <!-- النص المرتبط بزر الاختيار -->
            <label class="form-check-label" for="radioDefault1">
@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        <!-- خيار لا -->
        <div class="form-check">
            <!-- زر اختيار ثاني -->
-           <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+           <input class="form-check-input" type="radio" name="gamer"  value ="new" id="gamer" checked>
            
            <!-- النص المرتبط بزر الاختيار -->
            <label class="form-check-label" for="radioDefault2">
