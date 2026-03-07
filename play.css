@@ -1,46 +1,101 @@
+/* تنسيق خلفية الصفحة */
 body {
+    /* وضع صورة كخلفية للصفحة */
     background: url("sorah,/backgraund.png") no-repeat center center fixed;
+
+    /* جعل الصورة تغطي كامل الصفحة */
     background-size: cover;
 }
+
+/* تنسيق النموذج (الفورم) */
 form {
+    /* عرض الفورم */
     width: 600px;
+
+    /* توسيطه في الصفحة */
     margin: 50px auto;
+
+    /* مسافة داخلية */
     padding: 20px;
+
+    /* خلفية شبه شفافة للفورم */
     background: rgba(227, 211, 230, 0.6);
+
+    /* تدوير حواف الصندوق */
     border-radius: 15px;
+
+    /* جعل النص في الوسط */
     text-align: center;
+
+    /* تأثير ضبابي للخلفية خلف الفورم */
     backdrop-filter: blur(5px);
 }
 
+/* تنسيق النصوص الخاصة بالـ labels */
 label {
+    /* جعل كل label في سطر جديد */
     display: block;
+
+    /* مسافة بين العناصر */
     margin: 10px 0 5px;
+
+    /* جعل الخط عريض */
     font-weight: bold;
 }
 
+/* تنسيق حقول الإدخال */
 input {
+    /* عرض الحقل */
     width: 90%;
+
+    /* مسافة داخلية للنص */
     padding: 10px;
+
+    /* إطار الحقل */
     border: 1px solid #e3d3e699;
+
+    /* حواف دائرية */
     border-radius: 8px;
+
+    /* لون خلفية الحقل */
     background: rgba(241, 232, 243, 0.8);
 }
 
+/* تنسيق الحقل عند الضغط عليه */
 input:focus {
+    /* تغيير لون الإطار */
     border-color: #6a5acd;
+
+    /* إزالة الإطار الافتراضي للمتصفح */
     outline: none;
 }
 
+/* تنسيق زر الإرسال */
 button {
+    /* مسافة فوق الزر */
     margin-top: 15px;
+
+    /* حجم الزر */
     padding: 10px 20px;
+
+    /* لون الخلفية */
     background: #6a5acd;
+
+    /* لون النص */
     color: white;
+
+    /* إزالة الإطار */
     border: none;
+
+    /* حواف دائرية */
     border-radius: 8px;
+
+    /* تغيير شكل المؤشر عند المرور */
     cursor: pointer;
 }
 
+/* تأثير عند مرور الماوس على الزر */
 button:hover {
+    /* تغيير لون الزر */
     background: #5848c2;
 }

@@ -1,27 +1,55 @@
 
 <!-- maryam<!DOCTYPE > -->
+<!-- تعليق باسم الشخص الذي كتب الصفحة -->
+
 <html>
 
 <head>
+    <!-- ربط ملف CSS المسؤول عن تنسيق وتصميم الصفحة -->
     <link rel="stylesheet" href="play.css">
 </head>
 
 <body>
 
+    <!-- مسافات لإنزال الفورم قليلاً في الصفحة -->
     <br><br><br><br>
 
-    <form method="POST" action="play.php">
-        <label for="user">Enter your name</label>
+    <!-- بداية النموذج (Form)
+             method="POST" يعني إرسال البيانات بطريقة POST
+             action="play.php" يعني إرسال البيانات إلى ملف play.php لمعالجتها -->
+    <form method="POST" action="play.php"><br>
+
+        <!-- تسمية حقل إدخال اسم المستخدم -->
+        <lable for="user">enter your name</lable>
+
+        <!-- حقل إدخال نصي لاسم المستخدم -->
+        <!-- name يستخدم في PHP لاستقبال القيمة -->
+        <!-- id لربط الحقل بالـ label -->
         <input type="text" name="user" id="user">
 
-        <br><br>
+        <br>
+        <br>
 
+        <!-- تسمية حقل البريد الإلكتروني -->
         <label for="email">Enter your email</label>
+
+        <!-- حقل إدخال البريد الإلكتروني -->
+        <!-- type="email" يجعل المتصفح يتحقق من صحة صيغة الإيميل -->
         <input type="email" name="email" id="email">
 
-        <br><br>
+        <br>
+        <br>
 
-        <input type="submit">
+        <!-- حاوية لزر الإرسال -->
+        <div class="col-12">
+
+            <!-- زر إرسال البيانات المدخلة في الفورم -->
+            <button class="btn btn-primary" type="submit">Submit form</button>
+
+        </div>
+
+        <br> <br>
+
     </form>
 
 </body>
