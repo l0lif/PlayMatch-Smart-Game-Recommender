@@ -1,7 +1,7 @@
 /* تنسيق خلفية الصفحة */
 body {
     /* وضع صورة كخلفية للصفحة */
-    background: url("sorah,/backgraund.png") no-repeat center center fixed;
+    background: url("sorah/backgraund.png") no-repeat center center fixed;
 
     /* جعل الصورة تغطي كامل الصفحة */
     background-size: cover;
