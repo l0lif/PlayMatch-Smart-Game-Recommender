@@ -27,11 +27,19 @@ body{
     padding:0px;
 }
 
+#par{
 
+color:#c569e1;
+font-size: 40px;
+font-family:Nunito ;
+text-align: center;
+
+}
 
 #name{
 
         color:hwb(296 36% 20%);
+        
         font-size:larger;
         width: 400px;
         height: 400px;
