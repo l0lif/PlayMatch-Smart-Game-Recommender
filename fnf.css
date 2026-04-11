@@ -1,0 +1,164 @@
+@font-face {
+    font-family: fnaf;
+    src: url(fonts/HACKED.ttf);
+}
+
+@font-face {
+    font-family:Nun ;
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+}
+
+
+
+#BackCo{
+background-color: gray;
+background-size: cover;
+
+}
+body{
+
+   
+    background-image:
+    linear-gradient(rgba(50,50,50,0.7),rgba(50,50,50,0.7)), url(photos/Dioxazine\ Wallpapers\ -\ iXpap_upscayl_5x_upscayl-standard-4x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0% auto;
+    padding: 50px;
+    
+}
+.header-container{
+display: flex;
+align-items: center;
+gap: 10px;
+
+
+#Cre{
+color: rgb(193, 119, 231);
+
+
+
+}
+
+#logoC{
+width: 30px;
+height: auto;
+margin-bottom : 10px ;
+ 
+
+}
+}
+
+.lines{
+
+
+    color: aliceblue;
+    font-size: larger;
+    
+}
+
+
+
+
+.pos{
+
+
+
+#Poss{
+width: 430px;
+margin-left:10px ;
+margin-bottom: 500px;
+float: right;
+}
+
+
+
+}
+
+.Sum{
+
+#Summe{
+color:rgb(160, 34, 223);
+font-family: Nun;
+
+}
+#Sli1{
+color: aliceblue;
+    font-size: x-large;
+    margin-bottom: 50px;
+    
+}
+#Hire{
+  width: 550px;
+  margin-top: 0px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 10px;
+
+    }
+#Sli2{
+
+
+color: aliceblue;
+    font-size: x-large;
+    align-items: center;
+    
+}
+#cam{
+
+width: 1000px;
+border-radius: 10px;
+}
+
+}
+
+
+
+
+.Gam{
+
+#gamep{
+
+color:rgb(160, 34, 223);
+font-family: Nun;
+
+}
+
+#Gli1{
+
+color: aliceblue;
+    font-size: x-large;
+
+}
+#Gli2{
+    color: aliceblue;
+    font-size: x-large;
+
+}
+
+}
+.Gimg{
+
+  
+   display:flex;
+   gap:20px;
+   justify-content: center;
+  
+   #Chik{
+    width: 500px;
+    height: 500px;
+     border-radius: 20px;
+   }
+   #Str{
+     border-radius: 20px;
+   }
+}
+
+#chibis{
+    display: flex;
+
+margin-left: 1000px;
+    width: 10px;
+}
