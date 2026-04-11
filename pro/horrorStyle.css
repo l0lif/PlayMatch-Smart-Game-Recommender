@@ -1,0 +1,275 @@
+@font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:SilentFont ;
+    src: url(fonts/SLNTHLC.TTF);
+}
+@font-face {
+    font-family:SilentE ;
+    src: url(fonts/SLNTHLE.TTF);
+}
+@font-face {
+    font-family:SilentF ;
+    src: url(fonts/SLNTHLN.TTF);
+}
+
+
+.greet{
+
+color:white;
+background-color: rgba(109, 7, 204, 0.532);
+
+text-align: center;
+border-radius:20px ;
+}
+
+
+
+
+body{
+
+
+    background-image: url(photos/Dioxazine\ Wallpapers\ -\ iXpap_upscayl_5x_upscayl-standard-4x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0% auto;
+    padding: 50px;
+    
+}
+.imgBu{
+
+
+width: 300px;
+height: 400px;
+background-image: url(photos/fnaf1.jpg);
+background-position: center;
+background-size:cover;
+border:none ;
+cursor: pointer;
+transition: background-image 0.7s ease-in-out;
+
+
+}
+
+#BB{
+
+
+width: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+left: 100px;
+border-radius: 100px;
+margin:0 auto;
+margin-top: 300px;
+
+}
+
+.imgBu:hover{
+
+
+background-image: url(photos/fnaf2.jpg);
+box-shadow: 40px 0 100px #897225;
+
+
+}
+
+
+
+
+
+#firstG{
+
+
+    color: rgb(224, 181, 54);
+}
+
+.content::before{
+
+    content:'';
+    position:absolute;
+
+}
+
+#mainI1{
+
+
+color: aliceblue;
+font-size: larger;
+font-family: Nunito;
+
+}
+
+
+
+
+
+
+.imgBuR{
+
+
+width: 300px;
+height: 400px;
+background-image: url(photos/reddd.jpg);
+background-position: center;
+background-size:cover;
+border:none ;
+cursor: pointer;
+transition: background-image 0.7s ease-in-out;
+
+
+}
+
+#BBR{
+
+
+width: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+left: 100px;
+border-radius: 100px;
+margin:0 auto;
+margin-top: 300px;
+
+}
+
+.imgBuR:hover{
+
+
+background-image: url(photos/req.jpg);
+box-shadow: 40px 0 100px #4f4a3c;
+
+
+}
+#firstGR{
+
+
+    color: rgb(193, 44, 36);
+}
+
+#mainI1R{
+
+
+color: rgb(223, 166, 166);
+font-size: larger;
+font-family: Nunito;
+
+}
+
+
+
+
+.imgBuL{
+
+
+width: 300px;
+height: 400px;
+background-image: url(photos/little.jpg);
+background-position: center;
+background-size:cover;
+border:none ;
+cursor: pointer;
+transition: background-image 0.7s ease-in-out;
+
+
+}
+
+#BBL{
+
+
+width: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+left: 100px;
+border-radius: 100px;
+margin:0 auto;
+margin-top: 300px;
+
+}
+
+.imgBuL:hover{
+
+
+background-image: url(photos/little2.jpg);
+box-shadow: 40px 0 100px #2f4980;
+
+
+}
+#firstGL{
+
+
+    color: rgb(75, 135, 220);
+}
+
+#mainI1L{
+
+
+color: rgb(145, 170, 191);
+font-size: larger;
+font-family: Nunito;
+
+}
+
+
+
+.imgBS{
+
+
+width: 300px;
+height: 400px;
+background-image: url(photos/see2.jpg);
+background-position: center;
+background-size:cover;
+border:none ;
+cursor: pointer;
+transition: background-image 0.7s ease-in-out;
+
+
+}
+
+#BBS{
+
+
+width: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+left: 100px;
+border-radius: 100px;
+margin:0 auto;
+margin-top: 300px;
+
+}
+
+.imgBS:hover{
+
+
+background-image: url(photos/silent.jpg);
+box-shadow: 40px 0 100px #4f4a3c;
+
+
+}
+#firstGS{
+
+   font-size: 100px;
+    color: rgb(242, 237, 237);
+    font-family:SilentF;
+}
+
+#mainI1S{
+
+
+color: rgb(212, 212, 212);
+font-size: larger;
+font-family: Nunito;
+
+}
+
+
